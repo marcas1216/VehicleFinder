@@ -14,7 +14,7 @@ public class Reservation
 
     public ReservationStatus Status { get; private set; }
 
-    private Reservation() { } // EF
+    private Reservation() { }
 
     public Reservation(
         Guid id,

@@ -9,15 +9,17 @@ public class Vehicle
     public string Model { get; private set; } = default!;
     public int Year { get; private set; }
 
-    // Relación lógica con catálogo en Mongo
+    
     public string VehicleTypeId { get; private set; } = default!;
     public string MarketId { get; private set; } = default!;
 
     public string PickupLocationCode { get; private set; } = default!;
 
     public VehicleStatus Status { get; private set; }
+    public decimal? DailyPrice { get; set; }
+    public Guid LocationId { get; set; }
 
-    private Vehicle() { } // EF
+    private Vehicle() { } 
 
     public Vehicle(
         Guid id,
