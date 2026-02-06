@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vehicles.Domain", "Vehicles
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vehicles.Application", "Vehicles.Application\Vehicles.Application.csproj", "{D08A4698-0501-439E-929C-839B7946E1B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleTest", "VehicleTest\VehicleTest.csproj", "{F9483598-C848-4B17-9FC6-1DB0C755D351}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{D08A4698-0501-439E-929C-839B7946E1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D08A4698-0501-439E-929C-839B7946E1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D08A4698-0501-439E-929C-839B7946E1B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9483598-C848-4B17-9FC6-1DB0C755D351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9483598-C848-4B17-9FC6-1DB0C755D351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9483598-C848-4B17-9FC6-1DB0C755D351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9483598-C848-4B17-9FC6-1DB0C755D351}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +67,7 @@ Global
 		{324C1D1B-1DD8-471D-81EF-89A9A7217AA2} = {D5F693F9-A18F-4766-9D64-8CB60C63A98B}
 		{B812C09F-F2AC-4D86-A44A-B439695059F4} = {89AD74FB-203D-4BA4-8DD5-862918936BA6}
 		{D08A4698-0501-439E-929C-839B7946E1B4} = {91851D01-95E6-4926-9D7D-FCE3ED8896A2}
+		{F9483598-C848-4B17-9FC6-1DB0C755D351} = {1135271C-277F-4EE1-A4C8-38E596683120}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56FF05BF-0607-4D33-BFE5-A2CD6305DDBB}
