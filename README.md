@@ -48,6 +48,9 @@ El proyecto está diseñado con **arquitectura Clean Architecture / CQRS**, sepa
 - **Base de datos MySQL y MongoDB** (para producción)
 - Se puede usar **InMemory** para pruebas locales
 
+ ### Diseño técnico
+https://1drv.ms/w/c/ce2875b2f52c22d0/IQANWUYEagQrQrucBuiB0NH3Ad0Gwf5ZjA-P_1pgxTx5m5k?e=6DBMG2
+
 ### Pasos
 
 1. Clonar el repositorio:
@@ -55,4 +58,5 @@ El proyecto está diseñado con **arquitectura Clean Architecture / CQRS**, sepa
 ```bash
 git clone https://github.com/marcas1216/VehicleFinder.git
 cd VehicleFinder
+
 
