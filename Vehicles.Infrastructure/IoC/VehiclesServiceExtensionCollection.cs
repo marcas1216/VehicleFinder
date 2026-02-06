@@ -8,7 +8,7 @@ using Vehicles.Infrastructure.Repositories;
 
 namespace Vehicles.Infrastructure.IoC
 {
-    public static class VehiclesServiceCollection
+    public static class VehiclesServiceExtensionCollection
     {
         public static IServiceCollection AddVehiclesModule(
             this IServiceCollection services,
